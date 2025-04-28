@@ -9,7 +9,7 @@ def cantidad_carne(N, M, K):
     carne_total = (N * 6) + (M * 7) + (K * 1)
     return carne_total
 
-# Ejemplo de uso
+
 print("Ejercicio 1 - Carne de aves:", cantidad_carne(2, 3, 5))
 
 
@@ -26,7 +26,7 @@ def calcular_vueltas(B, P, M, H):
     vueltas = B - precio_total
     return vueltas
 
-# Ejemplo de uso
+
 print("Ejercicio 2 - Vueltas:", calcular_vueltas(10000, 2, 1, 5))
 
 
@@ -42,7 +42,7 @@ def calcular_pago_prestamo(P):
     monto_final = P * (1 + tasa_mensual) ** meses
     return monto_final
 
-# Ejemplo de uso
+
 print("Ejercicio 3 - Pago préstamo:", calcular_pago_prestamo(10000))
 
 
@@ -56,5 +56,5 @@ def contagios(C, D):
     total_contagiados = C * (2 ** D)
     return total_contagiados
 
-# Ejemplo de uso
+
 print("Ejercicio 4 - Contagios:", contagios(100, 5))
